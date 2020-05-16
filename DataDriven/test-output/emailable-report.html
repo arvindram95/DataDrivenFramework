@@ -9,23 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">LoginTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">92</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">AddCustomerTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">12</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">104</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">LoginTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4,124</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">AddCustomerTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">14</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">4,138</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.LoginTest</td><td><a href="#m0">LoginBankApp</a></td><td rowspan="1">1589625080795</td><td rowspan="1">24</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">AddCustomerTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m1">AddCustomerTest</a></td><td rowspan="1">1589625080907</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.LoginTest</td><td><a href="#m0">LoginBankApp</a></td><td rowspan="1">1589644709841</td><td rowspan="1">4089</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">AddCustomerTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m1">AddCustomerTest</a></td><td rowspan="1">1589644713985</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>LoginTest</h2><h3 id="m0">testcases.LoginTest#LoginBankApp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the CSS selector is null.
-	at org.openqa.selenium.By.cssSelector(By.java:145)
-	at testcases.LoginTest.LoginBankApp(LoginTest.java:12)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTest</h2><h3 id="m0">testcases.LoginTest#LoginBankApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>AddCustomerTest</h2><h3 id="m1">testcases.AddCustomerTest#AddCustomerTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoSuchMethodError: org.apache.poi.xssf.usermodel.XSSFCell.getCellType()Lorg/apache/poi/ss/usermodel/CellType;
 	at java.util.ArrayList.forEach(Unknown Source)
 Caused by: java.lang.NoSuchMethodError: org.apache.poi.xssf.usermodel.XSSFCell.getCellType()Lorg/apache/poi/ss/usermodel/CellType;
-	at utilites.ExcelReader.getCellData(ExcelReader.java:155)
-	at testcases.AddCustomerTest.getdata(AddCustomerTest.java:28)
+	at utilites.ExcelReader.getCellData(ExcelReader.java:156)
+	at testcases.AddCustomerTest.getdata(AddCustomerTest.java:29)
 	... 25 more
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

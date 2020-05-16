@@ -3,6 +3,7 @@ package base;
 import java.io.FileInputStream;
 
 
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -28,6 +29,7 @@ public class TestBase  {
 	public static FileInputStream fis;
     public static Logger log=Logger.getLogger("devpinoyLogger");
     public static ExcelReader excel=new ExcelReader("C:\\Users\\Acheron\\eclipse-workspace\\DataDriven\\src\\test\\resources\\excel\\ExcelReading.xlsx");
+    @BeforeSuite
 	public void setup() {
 		if (driver== null) {
 			try {
