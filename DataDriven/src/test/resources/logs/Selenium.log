@@ -1,0 +1,83 @@
+23:19:01,341 DEBUG devpinoyLogger:35 - Config file loaded
+23:19:01,345 DEBUG devpinoyLogger:49 - Prop file loaded
+23:19:07,834 DEBUG devpinoyLogger:59 - Chrome Launched
+23:19:08,713 DEBUG devpinoyLogger:62 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+23:19:12,901 DEBUG devpinoyLogger:11 - Inside Login Test
+23:19:17,025 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+23:19:17,745 DEBUG devpinoyLogger:74 - Execution Completed
+10:48:14,335 DEBUG devpinoyLogger:35 - Config file loaded
+10:48:14,338 DEBUG devpinoyLogger:49 - Prop file loaded
+10:48:20,851 DEBUG devpinoyLogger:59 - Chrome Launched
+10:48:22,497 DEBUG devpinoyLogger:62 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+10:48:26,682 DEBUG devpinoyLogger:11 - Inside Login Test
+10:48:30,807 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+10:48:31,529 DEBUG devpinoyLogger:74 - Execution Completed
+22:13:07,674 DEBUG devpinoyLogger:41 - Config file loaded
+22:13:07,678 DEBUG devpinoyLogger:55 - Prop file loaded
+22:13:14,479 DEBUG devpinoyLogger:65 - Chrome Launched
+22:13:16,512 DEBUG devpinoyLogger:68 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+22:13:20,725 DEBUG devpinoyLogger:11 - Inside Login Test
+22:13:24,820 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+22:13:25,598 DEBUG devpinoyLogger:80 - Execution Completed
+22:15:58,595 DEBUG devpinoyLogger:41 - Config file loaded
+22:15:58,599 DEBUG devpinoyLogger:55 - Prop file loaded
+22:16:05,135 DEBUG devpinoyLogger:65 - Chrome Launched
+22:16:08,002 DEBUG devpinoyLogger:68 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+22:16:12,400 DEBUG devpinoyLogger:11 - Inside Login Test
+22:16:16,489 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+22:16:17,290 DEBUG devpinoyLogger:80 - Execution Completed
+22:23:02,683 DEBUG devpinoyLogger:41 - Config file loaded
+22:23:02,683 DEBUG devpinoyLogger:55 - Prop file loaded
+22:23:09,313 DEBUG devpinoyLogger:65 - Chrome Launched
+22:23:10,277 DEBUG devpinoyLogger:68 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+22:23:14,483 DEBUG devpinoyLogger:11 - Inside Login Test
+22:23:18,584 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+22:23:19,408 DEBUG devpinoyLogger:80 - Execution Completed
+22:41:12,300 DEBUG devpinoyLogger:41 - Config file loaded
+22:41:12,304 DEBUG devpinoyLogger:55 - Prop file loaded
+22:41:18,974 DEBUG devpinoyLogger:65 - Chrome Launched
+22:41:22,931 DEBUG devpinoyLogger:68 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+22:41:27,162 DEBUG devpinoyLogger:11 - Inside Login Test
+22:41:31,264 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+22:41:32,205 DEBUG devpinoyLogger:80 - Execution Completed
+22:43:23,559 DEBUG devpinoyLogger:41 - Config file loaded
+22:43:23,563 DEBUG devpinoyLogger:55 - Prop file loaded
+22:43:30,132 DEBUG devpinoyLogger:65 - Chrome Launched
+22:43:31,596 DEBUG devpinoyLogger:68 - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+22:43:35,823 DEBUG devpinoyLogger:11 - Inside Login Test
+22:43:39,968 DEBUG devpinoyLogger:14 - Login executed Sucessfully
+22:43:40,791 DEBUG devpinoyLogger:80 - Execution Completed
+23:36:08,301 DEBUG devpinoyLogger:11 - Inside Login Test
+23:36:08,435 DEBUG devpinoyLogger:76 - Execution Completed
+23:40:08,137 DEBUG devpinoyLogger:11 - Inside Login Test
+23:40:08,394 DEBUG devpinoyLogger:76 - Execution Completed
+23:40:30,814 DEBUG devpinoyLogger:11 - Inside Login Test
+23:40:31,002 DEBUG devpinoyLogger:76 - Execution Completed
+23:47:25,642 DEBUG devpinoyLogger:11 - Inside Login Test
+23:47:25,741 DEBUG devpinoyLogger:76 - Execution Completed
+11:30:22,998 DEBUG devpinoyLogger:11 - Inside Login Test
+11:30:23,119 DEBUG devpinoyLogger:76 - Execution Completed
+11:39:57,900 DEBUG devpinoyLogger:11 - Inside Login Test
+11:39:58,037 DEBUG devpinoyLogger:76 - Execution Completed
+11:46:55,047 DEBUG devpinoyLogger:11 - Inside Login Test
+11:46:55,157 DEBUG devpinoyLogger:76 - Execution Completed
+11:47:14,319 DEBUG devpinoyLogger:11 - Inside Login Test
+11:47:14,438 DEBUG devpinoyLogger:76 - Execution Completed
+13:32:15,284 DEBUG devpinoyLogger:11 - Inside Login Test
+13:32:15,402 DEBUG devpinoyLogger:76 - Execution Completed
+13:40:43,086 DEBUG devpinoyLogger:11 - Inside Login Test
+13:40:43,182 DEBUG devpinoyLogger:76 - Execution Completed
+13:48:34,054 DEBUG devpinoyLogger:11 - Inside Login Test
+13:48:34,155 DEBUG devpinoyLogger:76 - Execution Completed
+14:33:03,942 DEBUG devpinoyLogger:11 - Inside Login Test
+14:33:04,077 DEBUG devpinoyLogger:76 - Execution Completed
+15:33:06,613 DEBUG devpinoyLogger:11 - Inside Login Test
+15:33:06,714 DEBUG devpinoyLogger:77 - Execution Completed
+15:55:35,985 DEBUG devpinoyLogger:11 - Inside Login Test
+15:55:36,161 DEBUG devpinoyLogger:81 - Execution Completed
+15:56:48,464 DEBUG devpinoyLogger:11 - Inside Login Test
+15:56:48,583 DEBUG devpinoyLogger:81 - Execution Completed
+15:59:25,315 DEBUG devpinoyLogger:11 - Inside Login Test
+15:59:25,408 DEBUG devpinoyLogger:81 - Execution Completed
+16:01:20,811 DEBUG devpinoyLogger:11 - Inside Login Test
+16:01:20,935 DEBUG devpinoyLogger:81 - Execution Completed
