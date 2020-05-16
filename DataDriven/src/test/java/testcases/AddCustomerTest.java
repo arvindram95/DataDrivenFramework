@@ -9,10 +9,13 @@ import base.TestBase;
 import utilites.ExcelReader;
 public class AddCustomerTest extends TestBase {
 	@Test(dataProvider="getdata")
-	public void AddCustomerTest(String FirstName,String LastName,String PostCode) {
+	public void AddCustomerTest(String FirstName,String LastName,String PostCode) throws InterruptedException {
 		driver.findElement(By.cssSelector(or.getProperty("addCustBtn_CSS"))).click();
+		Thread.sleep(5000);
 		driver.findElement(By.cssSelector(or.getProperty("firstname_CSS"))).sendKeys(FirstName);
-		driver.findElement(By.cssSelector(or.getProperty("lastname_XPATH"))).sendKeys(LastName);
+		Thread.sleep(5000);
+		driver.findElement(By.cssSelector(or.getProperty("lastname_XPATH"))).sendKeys(LastName
+);
 		driver.findElement(By.cssSelector(or.getProperty("postcode_CSS"))).sendKeys(PostCode);
 		//driver.findElement(By.cssSelector(or.getProperty("addbtn_CSS"))).click();
 	}

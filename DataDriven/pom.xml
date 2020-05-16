@@ -19,7 +19,7 @@
 
 			<artifactId>testng</artifactId>
 
-			<version>7.1.0</version>
+			<version>6.11</version>
 
 		</dependency>
 
@@ -169,8 +169,6 @@
 
 		<!-- http://mvnrepository.com/artifact/dom4j/dom4j -->
 
-		<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
-
 		<dependency>
 
 			<groupId>dom4j</groupId>
@@ -183,9 +181,7 @@
 
 
 
-
-
-		<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+		<!-- http://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
 
 		<dependency>
 
@@ -196,8 +192,6 @@
 			<version>3.1.0</version>
 
 		</dependency>
-
-
 
 
 		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->

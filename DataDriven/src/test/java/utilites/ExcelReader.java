@@ -94,9 +94,9 @@ public class ExcelReader {
 		if(cell==null)
 			return "";
 		
-		if(cell.getCellType()==CellType.STRING)
+		if(cell.getCellTypeEnum()==CellType.STRING)
 			  return cell.getStringCellValue();
-		else if(cell.getCellType()==CellType.NUMERIC || cell.getCellType()==CellType.FORMULA ){
+		else if(cell.getCellTypeEnum()==CellType.NUMERIC || cell.getCellTypeEnum()==CellType.FORMULA ){
 			  
 			  String cellText  = String.valueOf(cell.getNumericCellValue());
 			  if (HSSFDateUtil.isCellDateFormatted(cell)) {
@@ -153,9 +153,9 @@ public class ExcelReader {
 		if(cell==null)
 			return "";
 		
-	  if(cell.getCellType()==CellType.STRING)
+	  if(cell.getCellTypeEnum()==CellType.STRING)
 		  return cell.getStringCellValue();
-	  else if(cell.getCellType()==CellType.NUMERIC || cell.getCellType()==CellType.FORMULA ){
+	  else if(cell.getCellTypeEnum()==CellType.NUMERIC || cell.getCellTypeEnum()==CellType.FORMULA ){
 		  
 		  String cellText  = String.valueOf(cell.getNumericCellValue());
 		  if (HSSFDateUtil.isCellDateFormatted(cell)) {
