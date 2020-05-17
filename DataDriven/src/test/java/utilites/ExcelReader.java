@@ -2,7 +2,6 @@ package utilites;
 
 
 import java.io.FileInputStream;
-
 import java.io.FileOutputStream;
 import java.util.Calendar;
 
@@ -118,7 +117,7 @@ public class ExcelReader {
 			  
 			  
 			  return cellText;
-		  }else if(cell.getCellType()==CellType.BLANK)
+		  }else if(cell.getCellTypeEnum()==CellType.BLANK)
 		      return ""; 
 		  else 
 			  return String.valueOf(cell.getBooleanCellValue());
@@ -177,7 +176,7 @@ public class ExcelReader {
 		  
 		  
 		  return cellText;
-	  }else if(cell.getCellType()==CellType.BLANK)
+	  }else if(cell.getCellTypeEnum()==CellType.BLANK)
 	      return "";
 	  else 
 		  return String.valueOf(cell.getBooleanCellValue());

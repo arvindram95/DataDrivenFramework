@@ -14,10 +14,9 @@ public class AddCustomerTest extends TestBase {
 		Thread.sleep(5000);
 		driver.findElement(By.cssSelector(or.getProperty("firstname_CSS"))).sendKeys(FirstName);
 		Thread.sleep(5000);
-		driver.findElement(By.cssSelector(or.getProperty("lastname_XPATH"))).sendKeys(LastName
-);
+		driver.findElement(By.xpath(or.getProperty("lastname_XPATH"))).sendKeys(LastName);
 		driver.findElement(By.cssSelector(or.getProperty("postcode_CSS"))).sendKeys(PostCode);
-		//driver.findElement(By.cssSelector(or.getProperty("addbtn_CSS"))).click();
+		driver.findElement(By.cssSelector(or.getProperty("addbtn_CSS"))).click();
 	}
 	@DataProvider(name="getdata")
 	public Object[][] getdata() {
