@@ -1,7 +1,7 @@
 package testcases;
 
 import org.openqa.selenium.By;
-
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import base.TestBase;
@@ -13,5 +13,6 @@ public class LoginTest extends TestBase {
 	 driver.findElement(By.cssSelector(or.getProperty("bmlbutton"))).click();
 	 Thread.sleep(4000);
 	 log.debug("Login executed Sucessfully");
+	 Reporter.log("Login executed Sucessfully");
  }
 }

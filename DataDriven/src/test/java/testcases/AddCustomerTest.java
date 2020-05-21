@@ -1,7 +1,7 @@
 package testcases;
 
 import org.openqa.selenium.By;
-
+import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -17,6 +17,7 @@ public class AddCustomerTest extends TestBase {
 		driver.findElement(By.xpath(or.getProperty("lastname_XPATH"))).sendKeys(LastName);
 		driver.findElement(By.cssSelector(or.getProperty("postcode_CSS"))).sendKeys(PostCode);
 		driver.findElement(By.cssSelector(or.getProperty("addbtn_CSS"))).click();
+		Reporter.log("Customer added sucessfully");
 	}
 	@DataProvider(name="getdata")
 	public Object[][] getdata() {

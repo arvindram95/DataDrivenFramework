@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="4" total="7" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Login executed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Customer added sucessfully]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9590" started-at="2020-05-18T22:55:24 IST" finished-at="2020-05-18T22:55:33 IST">
+  <suite name="Suite" duration-ms="14646" started-at="2020-05-20T23:25:32 IST" finished-at="2020-05-20T23:25:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9590" started-at="2020-05-18T22:55:24 IST" finished-at="2020-05-18T22:55:33 IST">
-      <class name="testcases.AddCustomerTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.AddCustomerTest@7bd4937b]" name="setup" is-config="true" duration-ms="11428" started-at="2020-05-18T22:55:12 IST" finished-at="2020-05-18T22:55:24 IST">
+    <test name="BankApplication" duration-ms="14646" started-at="2020-05-20T23:25:32 IST" finished-at="2020-05-20T23:25:47 IST">
+      <class name="base.TestBase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:base.TestBase@1ed4ae0f]" name="setup" is-config="true" duration-ms="12239" started-at="2020-05-20T23:25:20 IST" finished-at="2020-05-20T23:25:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="AddCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@7bd4937b]" name="AddCustomerTest" duration-ms="9530" started-at="2020-05-18T22:55:24 IST" data-provider="getdata" finished-at="2020-05-18T22:55:33 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:base.TestBase@1ed4ae0f]" name="teardown" is-config="true" duration-ms="720" started-at="2020-05-20T23:25:47 IST" finished-at="2020-05-20T23:25:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- base.TestBase -->
+      <class name="testcases.AddCustomerTest">
+        <test-method status="PASS" signature="AddCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@6d4d66d2]" name="AddCustomerTest" duration-ms="10440" started-at="2020-05-20T23:25:36 IST" data-provider="getdata" finished-at="2020-05-20T23:25:47 IST">
           <params>
             <param index="0">
               <value>
@@ -29,9 +41,59 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <reporter-output>
+            <line>
+              <![CDATA[Customer added sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddCustomerTest -->
+        <test-method status="FAIL" signature="AddCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@6d4d66d2]" name="AddCustomerTest" duration-ms="40" started-at="2020-05-20T23:25:47 IST" data-provider="getdata" finished-at="2020-05-20T23:25:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xcvxcvvxc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=81.0.4044.138): Customer added successfully with customer id :6
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ARVIND', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Acheron\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6928b47e253fc5134e0635521e3d3c8e
+*** Element info: {Using=css selector, value=button[ng-click='addCust()']}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=81.0.4044.138): Customer added successfully with customer id :6
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ARVIND', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Acheron\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6928b47e253fc5134e0635521e3d3c8e
+*** Element info: {Using=css selector, value=button[ng-click='addCust()']}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 at testcases.AddCustomerTest.AddCustomerTest(AddCustomerTest.java:13)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -63,15 +125,20 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomerTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.AddCustomerTest@7bd4937b]" name="teardown" is-config="true" duration-ms="672" started-at="2020-05-18T22:55:33 IST" finished-at="2020-05-18T22:55:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- testcases.AddCustomerTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="LoginBankApp()[pri:0, instance:testcases.LoginTest@54c5a2ff]" name="LoginBankApp" duration-ms="4083" started-at="2020-05-20T23:25:32 IST" finished-at="2020-05-20T23:25:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login executed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginBankApp -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- BankApplication -->
+  </suite> <!-- Suite -->
 </testng-results>

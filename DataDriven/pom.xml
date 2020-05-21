@@ -64,28 +64,19 @@
 
 		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
 
+		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
 		<dependency>
-
 			<groupId>org.uncommons</groupId>
-
 			<artifactId>reportng</artifactId>
-
 			<version>1.1.4</version>
-
+			<scope>test</scope>
 		</dependency>
 
-
-
 		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
-
 		<dependency>
-
 			<groupId>com.google.inject</groupId>
-
 			<artifactId>guice</artifactId>
-
-			<version>4.1.0</version>
-
+			<version>4.2.3</version>
 		</dependency>
 
 
@@ -210,7 +201,8 @@
 	<build>
 
 		<plugins>
-			
+
+
 			<plugin>
 
 				<groupId>org.apache.maven.plugins</groupId>
